@@ -20,7 +20,7 @@ flowstate-security-audit/
     └── ...                       # used as a target so audits return findings
 ```
 
-## Standards (inherited from saga-standard)
+## Standards (inherited from flowstate-standard)
 
 - **Husky pre-commit hook** — gitleaks (if installed) → lint-staged → typecheck on affected packages
 - **gitleaks** — `.gitleaks.toml` extends defaults + Bearer-JWT detection rule
