@@ -1,0 +1,31 @@
+{
+  "name": "@flowstate/security-audit-cli",
+  "version": "0.1.0",
+  "description": "Multi-provider LLM-powered repo audit CLI: bundle a codebase and stream a security/gap/architecture review from Claude, GPT, or Gemini.",
+  "type": "module",
+  "bin": {
+    "fsaudit": "./dist/index.js"
+  },
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint src/ --ext .ts,.tsx,.js"
+  },
+  "dependencies": {
+    "chalk": "^5.4.0",
+    "commander": "^13.1.0",
+    "ora": "^8.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsup": "^8.3.0",
+    "typescript": "^5.8.0",
+    "vitest": "^3.1.0"
+  },
+  "author": "Epic Digital Interactive Media LLC",
+  "license": "Apache-2.0"
+}

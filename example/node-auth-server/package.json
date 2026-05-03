@@ -1,0 +1,21 @@
+{
+  "name": "@flowstate/example-node-auth-server",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Intentionally-vulnerable Express auth server used as a target for fsaudit. DO NOT DEPLOY.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node src/server.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.0.0",
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "md5": "^2.3.0"
+  },
+  "author": "Epic Digital Interactive Media LLC",
+  "license": "Apache-2.0"
+}
